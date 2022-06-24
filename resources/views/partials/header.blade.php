@@ -1,1 +1,6 @@
-<h1>header</h1>
+<nav>
+
+</nav>
+<div class="jumbotron">
+
+</div>

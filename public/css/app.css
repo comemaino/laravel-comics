@@ -6,6 +6,12 @@
   background-color: #58f;
 }
 
+.jumbotron {
+  height: 25rem;
+  background-image: url(../images/jumbotron.jpg);
+  background-size: cover;
+}
+
 .comics-section {
   background-color: #333;
 }
