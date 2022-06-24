@@ -1,0 +1,28 @@
+.button {
+  color: #fff;
+}
+.button.brand {
+  border: 0;
+  background-color: #58f;
+}
+
+.comics-section {
+  background-color: #333;
+}
+
+.comic-card {
+  margin: 0.5rem;
+  width: calc(16.6666666667% - 1.5rem);
+}
+.comic-card .img-wrapper {
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+.comic-card .img-wrapper img {
+  width: 100%;
+}
+.comic-card h5 {
+  font-size: 1rem;
+  color: #fff;
+  overflow: hidden;
+}
