@@ -20,3 +20,14 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 })->name('home');
+
+Route::get('/comic-{id}', function ($id) {
+    $comics_array = collect(config('comics'));
+    $current_comic = $comics_array->where('id', $id)->first();
+
+    $data = [
+        'comics' => $comics_array,
+        'comic' => $current_comic
+    ];
+    return view('single-comic', $data);
+})->name('single-comic');

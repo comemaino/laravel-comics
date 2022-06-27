@@ -1,0 +1,29 @@
+.cover-section {
+  height: 4rem;
+  background-color: #58f;
+
+  .img-wrapper {
+    bottom: -3rem;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.bottom-section {
+  background-color: #ccc;
+
+  .container {
+
+    .row {
+      padding: 0;
+      margin-right: 1rem;
+
+      .row {
+        padding: .5rem 0 .25rem 0;
+        border-bottom: 1px solid #aaa;
+      }
+    }
+  }
+}

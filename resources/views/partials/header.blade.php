@@ -1,6 +1,6 @@
 <nav>
 
 </nav>
-<div class="jumbotron">
+<div class="_jumbotron">
 
 </div>

@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
 .button {
   color: #fff;
 }
@@ -6,7 +16,8 @@
   background-color: #58f;
 }
 
-.jumbotron {
+._jumbotron {
+  margin: 0;
   height: 25rem;
   background-image: url(../images/jumbotron.jpg);
   background-size: cover;
@@ -24,11 +35,31 @@
   aspect-ratio: 1;
   overflow: hidden;
 }
-.comic-card .img-wrapper img {
-  width: 100%;
-}
 .comic-card h5 {
   font-size: 1rem;
   color: #fff;
   overflow: hidden;
+}
+
+.cover-section {
+  height: 4rem;
+  background-color: #58f;
+}
+.cover-section .img-wrapper {
+  bottom: -3rem;
+}
+.cover-section .img-wrapper img {
+  width: 100%;
+}
+
+.bottom-section {
+  background-color: #ccc;
+}
+.bottom-section .container .row {
+  padding: 0;
+  margin-right: 1rem;
+}
+.bottom-section .container .row .row {
+  padding: 0.5rem 0 0.25rem 0;
+  border-bottom: 1px solid #aaa;
 }
